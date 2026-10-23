@@ -3,5 +3,5 @@
 // Contoh: "123456789012-abcdefg1234567.apps.googleusercontent.com"
 // Biarkan kosong kalau belum mau memakai sinkron Google; aplikasi tetap jalan dan menyimpan di HP.
 window.BKS_CONFIG = {
-  googleClientId: ""
+  googleClientId: "176124226586-qpuv1kgmiahivljmn8epb275lk1cs3b4.apps.googleusercontent.com"
 };
