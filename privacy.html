@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Kebijakan Privasi · Buku Kas Saku</title>
+<meta name="description" content="Kebijakan privasi aplikasi Buku Kas Saku.">
+<link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;600&family=Zilla+Slab:wght@600;700&display=swap">
+<style>
+:root{
+  --paper:#ECF1EC; --surface:#FAFCF9; --line:#D2DCD4; --ink:#16302A; --muted:#5A6E66; --accent:#1C6A4D;
+  --font-display:"Zilla Slab", Rockwell, "Roboto Slab", Georgia, serif;
+  --font-ui:"Schibsted Grotesk", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  color-scheme:light;
+}
+@media (prefers-color-scheme: dark){
+  :root{ --paper:#0D1512; --surface:#15201B; --line:#2A3B34; --ink:#E1EBE5; --muted:#97ABA2; --accent:#4DBE8C; color-scheme:dark; }
+}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--font-ui);font-size:16px;line-height:1.6}
+main{max-width:680px;margin:0 auto;box-sizing:border-box;padding-left:max(16px, env(safe-area-inset-left,0px));padding-right:max(16px, env(safe-area-inset-right,0px));padding-block:32px 56px}
+h1{font-family:var(--font-display);font-weight:700;font-size:2rem;line-height:1.15;margin:0 0 6px;text-wrap:balance}
+h2{font-family:var(--font-display);font-weight:600;font-size:1.2rem;margin:32px 0 8px;padding-bottom:6px;border-bottom:1px solid var(--line)}
+p,li{max-width:65ch}
+ul{padding-left:1.2em}
+li{margin-bottom:6px}
+.meta{color:var(--muted);margin:0 0 24px}
+a{color:var(--accent)}
+code{font-size:.9em;background:var(--surface);border:1px solid var(--line);border-radius:4px;padding:1px 5px;overflow-wrap:anywhere}
+.back{display:inline-block;margin-top:28px;font-weight:600}
+</style>
+</head>
+<body>
+<main>
+  <h1>Kebijakan Privasi Buku Kas Saku</h1>
+  <p class="meta">Berlaku sejak 23 Oktober 2026</p>
+
+  <p>Buku Kas Saku adalah aplikasi pencatat keuangan pribadi. Halaman ini menjelaskan data apa yang disimpan, di mana disimpan, dan bagaimana kamu bisa menghapusnya.</p>
+
+  <h2>Data yang dicatat</h2>
+  <p>Aplikasi hanya menyimpan data yang kamu masukkan sendiri: tanggal, jenis (pemasukan atau pengeluaran), kategori, jumlah, dan catatan singkat untuk setiap transaksi.</p>
+
+  <h2>Tempat data disimpan</h2>
+  <ul>
+    <li><strong>Di perangkatmu.</strong> Semua catatan disimpan di penyimpanan browser pada perangkat yang kamu pakai.</li>
+    <li><strong>Di Google Drive milikmu, jika kamu menghubungkannya.</strong> Salinan catatan disimpan sebagai satu file di folder data aplikasi (<em>application data folder</em>) di Google Drive akunmu sendiri. Folder ini tersembunyi dari daftar file Drive.</li>
+  </ul>
+  <p>Aplikasi ini tidak memiliki server sendiri. Pembuat aplikasi tidak menerima, melihat, atau menyimpan catatan keuanganmu.</p>
+
+  <h2>Akses ke akun Google</h2>
+  <p>Saat kamu menghubungkan akun Google, aplikasi hanya meminta izin <code>https://www.googleapis.com/auth/drive.appdata</code>. Izin ini terbatas pada folder data milik aplikasi ini saja. Aplikasi tidak dapat membaca, mengubah, atau menghapus file lain di Google Drive-mu.</p>
+  <p>Aplikasi juga membaca alamat email akun Google yang terhubung, semata-mata untuk ditampilkan kepadamu sebagai penanda akun yang sedang dipakai.</p>
+  <p>Penggunaan data dari Google API oleh aplikasi ini mengikuti <a href="https://developers.google.com/terms/api-services-user-data-policy" rel="noopener">Google API Services User Data Policy</a>, termasuk ketentuan Limited Use.</p>
+
+  <h2>Berbagi data</h2>
+  <p>Data tidak dijual, tidak dibagikan kepada pihak lain, dan tidak dipakai untuk iklan atau pelacakan. Aplikasi tidak memakai analitik maupun cookie pelacak. Huruf (font) dimuat dari Google Fonts.</p>
+
+  <h2>Menghapus data</h2>
+  <ul>
+    <li><strong>Di perangkat:</strong> hapus data situs atau data aplikasi Buku Kas Saku melalui pengaturan browser atau pengaturan aplikasi di HP.</li>
+    <li><strong>Di Google Drive:</strong> buka Google Drive di komputer, pilih Setelan, lalu Kelola aplikasi. Pada Buku Kas Saku, pilih Opsi untuk menghapus data aplikasi tersembunyi atau memutus aksesnya.</li>
+    <li><strong>Mencabut izin Google:</strong> buka <a href="https://myaccount.google.com/permissions" rel="noopener">myaccount.google.com/permissions</a> dan hapus akses Buku Kas Saku.</li>
+  </ul>
+
+  <h2>Kontak</h2>
+  <p>Pertanyaan tentang kebijakan ini dapat dikirim ke <strong>abdullahalex29@gmail.com</strong>.</p>
+
+  <a class="back" href="./">← Kembali ke Buku Kas Saku</a>
+</main>
+</body>
+</html>
